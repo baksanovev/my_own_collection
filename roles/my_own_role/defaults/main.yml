@@ -1,0 +1,6 @@
+#SPDX-License-Identifier: MIT-0
+---
+# defaults file for my_own_role
+
+my_own_path: "/tmp/netology_collection.txt"
+my_own_content: "Created by my own collection!"

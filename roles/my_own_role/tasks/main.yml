@@ -1,0 +1,8 @@
+#SPDX-License-Identifier: MIT-0
+---
+# tasks file for my_own_role
+
+- name: Create file using my own module
+  my_own_namespace.yandex_cloud_elk.my_own_module:
+    path: "{{ my_own_path }}"
+    content: "{{ my_own_content }}"
